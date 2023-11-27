@@ -1,0 +1,39 @@
+.cardValues {
+  width: min(100%, 350px);
+  min-height: 400px;
+  padding: 1em;
+  background-color: #e5e7eb;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: 0.5fr 0.3fr 0.3fr;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cardValues h3 {
+  color: #191c24;
+}
+
+.cardValues p {
+  color: #191c24;
+}
+
+@media screen and (min-width: 976px) {
+  .cardValues {
+    opacity: 0.6;
+  }
+
+  .cardValues:hover {
+    background-color: #fff;
+    box-shadow: 4px 4px 25px #eaebed;
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  .cardValues:hover h3 {
+    color: #191c24;
+  }
+
+  .cardValues:hover p {
+    color: #191c24;
+  }
+}
