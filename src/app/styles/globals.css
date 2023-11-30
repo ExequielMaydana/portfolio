@@ -68,18 +68,6 @@ body {
   background-color: #312e81 !important;
 }
 
-.instagram:hover {
-  color: #bc2a8d;
-}
-
-.twitter:hover {
-  color: #1da1f2;
-}
-
-.linkedin:hover {
-  color: #0077b5;
-}
-
 .progress-bar {
   position: fixed;
   top: 0;
