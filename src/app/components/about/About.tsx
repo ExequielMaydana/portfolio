@@ -26,11 +26,7 @@ export default function About() {
         setonContainer(false);
       }
     };
-
-    // Agrega el listener de scroll
     window.addEventListener("scroll", handleScroll);
-
-    // Limpia el listener cuando el componente se desmonta
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -51,25 +47,15 @@ export default function About() {
           transition={{ duration: 0.8 }}
         >
           <div className="flex flex-col items-center justify-center gap-8 lg:justify-start">
-            <motion.div
-              initial={{ opacity: 0.6 }}
-              whileHover={{
-                scale: 1.2,
-                transition: { duration: 1 },
-              }}
-              whileTap={{ scale: 0.9 }}
-              whileInView={{ opacity: 1 }}
-            >
-              <figure className="w-[250px] h-[250px] border border-black rounded-full shadow-lg overflow-hidden lg:w-[300px] lg:h-[300px]">
-                <Image
-                  width={620}
-                  height={620}
-                  src="/img/myAvatarTwo.webp"
-                  alt="my avatar"
-                  className="w-full h-full object-cover pt-6 lg:pt-8"
-                />
-              </figure>
-            </motion.div>
+            <figure className="w-[250px] h-[250px] border border-black rounded-full shadow-lg overflow-hidden lg:w-[300px] lg:h-[300px]">
+              <Image
+                width={620}
+                height={620}
+                src="/img/myAvatarTwo.webp"
+                alt="my avatar"
+                className="w-full h-full object-cover pt-6 lg:pt-8"
+              />
+            </figure>
 
             <div className="hidden lg:flex flex-col items-center justify-center gap-2 text-black">
               <p>
