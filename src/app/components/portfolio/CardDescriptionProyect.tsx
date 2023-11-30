@@ -59,10 +59,10 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             manera organizada y accesible la información sobre los personajes de
             la serie.
             <br /> <br /> Al acceder a la web, los usuarios pueden explorar una
-            lista completa de personajes con{" "}
+            lista completa de personajes con
             <b>funcionalidades de paginación</b> para una experiencia de usuario
             fluida. Además, <b>se incorporan dos filtros intuitivos</b>,
-            permitiendo a los usuarios refinar la búsqueda{" "}
+            permitiendo a los usuarios refinar la búsqueda
             <b>según la ubicación o el nombre del personaje</b>.
             <br /> <br /> Esta aplicación, aunque inicialmente concebida como un
             ejercicio para consolidar mis habilidades en React.js durante mi
@@ -72,21 +72,21 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
         )}
         {project?.title === "Pokemon GO" && (
           <p className="text-center md:w-[80%] md:m-auto">
-            Proyecto con <b>React.js y Vite</b>. Esta Web consume la{" "}
+            Proyecto con <b>React.js y Vite</b>. Esta Web consume la
             <b>PokeAPI</b>, ofrece una experiencia interactiva y protegida desde
             el inicio.
             <br />
             <br />
             Al ingresar, los usuarios deben proporcionar un nombre para acceder
-            a las funciones protegidas de la aplicación. Utilizando{" "}
+            a las funciones protegidas de la aplicación. Utilizando
             <b>React Router</b>, se implementaron rutas protegidas para
-            garantizar la seguridad del contenido. Además,{" "}
+            garantizar la seguridad del contenido. Además,
             <b>Redux y Redux Toolkit</b>
             se emplearon para gestionar el estado de la aplicación, almacenando
             el nombre del usuario para su visualización en páginas posteriores.
             <br />
             <br />
-            La interfaz presenta una lista inicial de Pokémon con{" "}
+            La interfaz presenta una lista inicial de Pokémon con
             <b>filtros intuitivos por nombre y tipo</b>. Al hacer clic en un
             Pokémon, los usuarios son dirigidos a una página detallada que
             muestra información completa, incluyendo movimientos y estadísticas.
@@ -108,7 +108,7 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             La esencia del sitio radica en la venta de planes de entrenamiento
             personalizado. Los visitantes pueden explorar las distintas opciones
             de planes, seleccionar el que mejor se adapte a sus necesidades y
-            proceder al checkout a través de la integración de la{" "}
+            proceder al checkout a través de la integración de la
             <b>API de Mercado Pago</b>.
             <br />
             <br />
@@ -132,7 +132,7 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             en la programación, abordando tanto el desarrollo del backend como
             del frontend. Utilizando <b>NodeJS con ExpressJS</b> para el backend
             y<b>MongoDB como base de datos</b>, este proyecto encarna la
-            filosofía de que <b>"querer es poder"</b>.
+            filosofía de que <b>querer es poder</b>.
             <br />
             <br />
             En el frontend, opté por <b>Next.js</b> para una experiencia de
@@ -148,7 +148,7 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             consumo eficiente de imágenes desde el frontend.
             <br />
             <br />
-            La administración de productos se gestiona a través de un{" "}
+            La administración de productos se gestiona a través de un
             <b>panel construido con Material UI</b>, accesible solo para
             usuarios con el rol de administrador. Esta distinción de roles
             asegura un entorno seguro y permite que solo los administradores
