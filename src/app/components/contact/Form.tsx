@@ -75,7 +75,7 @@ export default function Form() {
                 <input
                   className="border border-dimGray outline-none rounded-md shadow-md py-2 text-black pl-2"
                   type="text"
-                  id="FirstNameAndLastName"
+                  id="name"
                   placeholder="ej: Martín Pérez"
                   name="name"
                   onChange={handleChange}
@@ -107,7 +107,7 @@ export default function Form() {
                 )}
               </li>
               <li className="w-full flex flex-col gap-2">
-                <label className="font-medium text-slateGray" id="message">
+                <label className="font-medium text-slateGray" htmlFor="message">
                   Deja tu mensaje aquí
                 </label>
 

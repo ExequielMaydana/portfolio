@@ -17,7 +17,7 @@ export default function Card(Props: { data: data }) {
   const { data } = Props;
 
   return (
-    <article className={styles.cardValues}>
+    <article className={styles.card}>
       <figure className="w-full h-[200px]">
         <Image
           width={1000}

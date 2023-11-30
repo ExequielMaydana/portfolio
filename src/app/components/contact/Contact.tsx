@@ -13,7 +13,7 @@ export default function Contact() {
       <header className="w-full flex flex-col gap-2">
         <HeaderSections title="Contacto" />
         <b className="text-black md:text-xl">¡Creemos algo juntos!</b>
-        <p className="font-medium text-black md:w-[60%] md:text-lg">
+        <p className="font-medium text-dimGray md:w-[70%]  md:text-xl">
           ¿Le ha interesado mi perfil? ¿Busca un desarrollador con talento para
           dar vida a su solución web? ¡Cuéntemelo!
         </p>

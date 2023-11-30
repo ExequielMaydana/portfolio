@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="w-full relative flex flex-col items-center justify-center gap-4 p-12 bg-black">
       {" "}
-      <ul className="flex items-center justify-center gap-8 text-grayCien text-2xl">
+      <ul className="flex items-center justify-center gap-8 text-gray1 text-2xl">
         <li className="instagram">
           <Link href="https://www.instagram.com/exe_m666/" target="_blank">
             <FaInstagram />
@@ -29,13 +29,13 @@ export default function Footer() {
           </Link>
         </li>
       </ul>
-      <p className="text-center font-medium text-grayCien">
+      <p className="text-center font-medium text-gray1">
         Copyright © Exequiel Maydana · 2023
       </p>
-      <article className="absolute bottom-2 right-4 border border-grayCien rounded-full p-2 lg:bottom-4 lg:right-8">
+      <article className="absolute bottom-2 right-4 border border-gray1 rounded-full p-2 lg:bottom-4 lg:right-8">
         <Link href="#backto">
           {" "}
-          <span className="text-grayCien">
+          <span className="text-gray1">
             <IoArrowUp />
           </span>
         </Link>

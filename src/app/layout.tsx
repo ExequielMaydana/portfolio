@@ -2,10 +2,7 @@ import type { Metadata } from "next";
 import { montserrat } from "./libs/fonts";
 import "./styles/globals.css";
 import "swiper/css/bundle";
-
 import Navbar from "./components/shared/Navbar";
-import Head from "next/head";
-import Link from "next/link";
 import AnimatedCursor from "react-animated-cursor";
 import Footer from "./components/shared/Footer";
 

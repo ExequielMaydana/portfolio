@@ -87,12 +87,12 @@ export default function Navbar() {
         </ul>
       </nav>
       <nav className="hidden w-auto lg:flex items-center justify-end">
-        <ul className="flex items-center justify-center gap-6 text-lg font-medium lg:text-xl">
+        <ul className="flex items-center justify-center gap-6 text-lg font-medium lg:text-xl ">
           <li>
             <Link
               href="/"
               passHref
-              className="hover:border-b-2 hover:border-violet-400 transition duration-300"
+              className="hover:border-b-2 hover:border-indigo6 transition duration-300"
             >
               Inicio
             </Link>
@@ -100,7 +100,7 @@ export default function Navbar() {
           <li>
             <Link
               href="#about"
-              className="hover:border-b-2 hover:border-violet-400 transition duration-300"
+              className="hover:border-b-2 hover:border-indigo6 transition duration-300"
             >
               Sobre mí{" "}
             </Link>
@@ -108,7 +108,7 @@ export default function Navbar() {
           <li>
             <Link
               href="#portfolio"
-              className="hover:border-b-2 hover:border-violet-400 transition duration-300"
+              className="hover:border-b-2 hover:border-indigo6 transition duration-300"
             >
               Proyectos
             </Link>
@@ -116,7 +116,7 @@ export default function Navbar() {
           <li>
             <Link
               href="#contact"
-              className="hover:border-b-2 hover:border-violet-400 transition duration-300"
+              className="hover:border-b-2 hover:border-indigo6 transition duration-300"
             >
               Contacto
             </Link>

@@ -16,6 +16,7 @@ body {
   background-color: #fff;
   max-width: 1500px;
   margin: auto;
+  overflow-x: hidden;
 }
 
 .textShadow {
@@ -40,11 +41,12 @@ body {
 }
 
 .swiperPortfolio .swiper-pagination .swiper-pagination-bullet {
-  background-color: #d1d5db;
+  background-color: #eaebed !important;
+  opacity: 0.8;
 }
 
 .swiperPortfolio .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #8b5cf6;
+  background-color: #312e81 !important;
 }
 
 .swiper-cube {
@@ -58,11 +60,12 @@ body {
 }
 
 .swiper-cube .swiper-pagination .swiper-pagination-bullet {
-  background-color: #d1d5db;
+  background-color: #eaebed !important;
+  opacity: 0.8;
 }
 
 .swiper-cube .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #8b5cf6;
+  background-color: #312e81 !important;
 }
 
 .instagram:hover {
@@ -75,6 +78,44 @@ body {
 
 .linkedin:hover {
   color: #0077b5;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #4f46e5;
+  transform-origin: 0%;
+  z-index: 999;
+}
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax .scroller {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 64px;
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax span {
+  display: block;
+  margin-right: 30px;
+  padding: 0.3em 0;
+  color: #191c24;
 }
 
 @media screen and (min-width: 390px) {
