@@ -111,7 +111,7 @@ export default function Footer() {
             </Link>
           </li>
         </ul>
-        <ul className="flex items-center justify-center gap-2 md:gap-12">
+        <ul className="flex items-center justify-center gap-6 md:gap-12">
           <li className="text-lg text-gray1 md:text-xl">
             <Link href="/">Inicio</Link>
           </li>
@@ -132,7 +132,7 @@ export default function Footer() {
       <article className="absolute bottom-4 right-6 border-2 border-gray1 rounded-full p-2 lg:bottom-8 lg:right-12 z-50">
         <Link href="#backto">
           {" "}
-          <span className="text-gray1 font-bold">
+          <span className="text-gray1 font-bold lg:text-3xl">
             <IoArrowUp />
           </span>
         </Link>

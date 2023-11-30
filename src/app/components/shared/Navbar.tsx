@@ -64,23 +64,35 @@ export default function Navbar() {
         <div style={{ transitionDelay: "0.3s" }}></div>
         <div style={{ transitionDelay: "0.4s" }}></div>
         <ul className={`${openMenu ? styles.submenuOpen : styles.submenu}`}>
-          <li style={{ animationDelay: "0.4s" }}>
+          <li
+            style={{ animationDelay: "0.4s" }}
+            onClick={() => setOpenMenu(!openMenu)}
+          >
             <Link href="/" className="m:text-xl sm:text-2xl">
               Inicio
             </Link>
           </li>
-          <li style={{ animationDelay: "0.5s" }}>
-            <Link href="#" className="m:text-xl sm:text-2xl">
+          <li
+            style={{ animationDelay: "0.5s" }}
+            onClick={() => setOpenMenu(!openMenu)}
+          >
+            <Link href="#about" className="m:text-xl sm:text-2xl">
               Sobre mí{" "}
             </Link>
           </li>
-          <li style={{ animationDelay: "0.6s" }}>
-            <Link href="#" className="m:text-xl sm:text-2xl">
+          <li
+            style={{ animationDelay: "0.6s" }}
+            onClick={() => setOpenMenu(!openMenu)}
+          >
+            <Link href="#portfolio" className="m:text-xl sm:text-2xl">
               Proyectos
             </Link>
           </li>
-          <li style={{ animationDelay: "0.7s" }}>
-            <Link href="#" className="m:text-xl sm:text-2xl">
+          <li
+            style={{ animationDelay: "0.7s" }}
+            onClick={() => setOpenMenu(!openMenu)}
+          >
+            <Link href="#contact" className="m:text-xl sm:text-2xl">
               Contacto
             </Link>
           </li>

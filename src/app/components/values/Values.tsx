@@ -9,7 +9,7 @@ export default function Values() {
         Cuando construyo o clono proyectos web, me adhiero firmemente a estos
         principios que hacen que mis sitios web sean únicos y escalables.
       </p>
-      <article className="w-full flex flex-wrap items-center justify-center gap-6 lg:gap-16">
+      <article className="w-full flex flex-wrap items-center justify-center gap-16 lg:gap-18">
         {dataValues.map((data) => (
           <Card data={data} key={data.id} />
         ))}
