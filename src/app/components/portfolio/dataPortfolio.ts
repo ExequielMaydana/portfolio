@@ -7,7 +7,13 @@ export const dataPortfolio = [
 
     imgUrl: "/img-projects/pokemongo.jpg",
     slug: "pokemon-go",
-    imgs: [{ id: 0, imgUrl: "/img-projects/pokemon/img1.jpg" }],
+    imgs: [
+      { id: 0, imgUrl: "/img-projects/pokemon/p-img-1.png" },
+      { id: 1, imgUrl: "/img-projects/pokemon/p-img-2.png" },
+      { id: 2, imgUrl: "/img-projects/pokemon/p-img-3.png" },
+      { id: 3, imgUrl: "/img-projects/pokemon/p-img-4.png" },
+      { id: 4, imgUrl: "/img-projects/pokemon/p-img-5.png" },
+    ],
     urlWebSite: "https://pokedex-v2-eta.vercel.app/",
   },
   {
@@ -18,8 +24,10 @@ export const dataPortfolio = [
     imgUrl: "/img-projects/rickymorty.jpg",
     slug: "ricky-y-morty",
     imgs: [
-      { id: 0, imgUrl: "/img-projects/rickymorty/img1.jpg" },
-      { id: 1, imgUrl: "/img-projects/rickymorty/img1.jpg" },
+      { id: 0, imgUrl: "/img-projects/rickymorty/r-img-1.png" },
+      { id: 1, imgUrl: "/img-projects/rickymorty/r-img-2.png" },
+      { id: 2, imgUrl: "/img-projects/rickymorty/r-img-3.png" },
+      { id: 3, imgUrl: "/img-projects/rickymorty/r-img-4.png" },
     ],
     urlWebSite: "https://ricky-and-morty-v2.vercel.app/",
   },
@@ -31,8 +39,14 @@ export const dataPortfolio = [
     imgUrl: "/img-projects/shopt.jpg",
     slug: "tienda-online",
     imgs: [
-      { id: 0, imgUrl: "/img-projects/closetWithoutGender/img1.png" },
-      { id: 1, imgUrl: "/img-projects/closetWithoutGender/img2.png" },
+      { id: 0, imgUrl: "/img-projects/closetWithoutGender/c-img-1.png" },
+      { id: 1, imgUrl: "/img-projects/closetWithoutGender/c-img-2.png" },
+      { id: 2, imgUrl: "/img-projects/closetWithoutGender/c-img-3.png" },
+      { id: 3, imgUrl: "/img-projects/closetWithoutGender/c-img-4.png" },
+      { id: 4, imgUrl: "/img-projects/closetWithoutGender/c-img-5.png" },
+      { id: 5, imgUrl: "/img-projects/closetWithoutGender/c-img-6.png" },
+      { id: 6, imgUrl: "/img-projects/closetWithoutGender/c-img-7.png" },
+      { id: 7, imgUrl: "/img-projects/closetWithoutGender/c-img-8.png" },
     ],
     urlWebSite: "https://closetwithoutgender.vercel.app/",
   },
@@ -44,7 +58,16 @@ export const dataPortfolio = [
 
     imgUrl: "/img-projects/personaltrainer.jpg",
     slug: "personal-trainer",
-    imgs: [{ id: 0, imgUrl: "/img-projects/personal/img1.png" }],
+    imgs: [
+      { id: 0, imgUrl: "/img-projects/personal/p-img-1.png" },
+      { id: 1, imgUrl: "/img-projects/personal/p-img-2.png" },
+      { id: 2, imgUrl: "/img-projects/personal/p-img-3.png" },
+      { id: 3, imgUrl: "/img-projects/personal/p-img-4.png" },
+      { id: 4, imgUrl: "/img-projects/personal/p-img-5.png" },
+      { id: 5, imgUrl: "/img-projects/personal/p-img-6.png" },
+      { id: 6, imgUrl: "/img-projects/personal/p-img-7.png" },
+      { id: 7, imgUrl: "/img-projects/personal/p-img-8.png" },
+    ],
     urlWebSite: "https://pablosalinacoach.online/",
   },
 ];
