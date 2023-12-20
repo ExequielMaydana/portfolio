@@ -14,7 +14,7 @@
 .form__btn {
   width: 150px;
   height: 30px;
-  background: #7c3aed;
+  background: #4f46e5;
   color: #fff;
   position: relative;
   border: none;
@@ -24,7 +24,7 @@
   border-radius: 5px;
   opacity: 0.8;
   letter-spacing: 1px;
-  box-shadow: #5b21b6 0px 7px 2px, #000 0px 8px 5px;
+  box-shadow: #6366f1 0px 7px 2px, #000 0px 8px 5px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -38,7 +38,7 @@
 
 .form__btn:active {
   top: 4px;
-  box-shadow: var(--colorDeepPink) 0px 3px 2px, var(--colorDark) 0px 3px 5px;
+  box-shadow: #6366f1 0px 3px 2px, #6366f1 0px 3px 5px;
 }
 
 .form__btn i {

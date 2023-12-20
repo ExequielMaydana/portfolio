@@ -10,7 +10,7 @@ interface Project {
   id: number;
   title: string;
   description: string;
-  imgUrl: string;
+  imgUrl?: string;
   slug: string;
   imgs: { id: number; imgUrl: string }[];
   urlWebSite: string;
@@ -163,6 +163,60 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             detalle en la experiencia del usuario y la implementación de
             funciones avanzadas como la gestión de imágenes y la administración
             de roles.
+          </p>
+        )}
+        {project?.title === "Diario El Heraldo | de Concordia" && (
+          <p>
+            Tengo el placer de presentar el proyecto de creación desde cero de
+            un <b>diario digital para Zaro Estudio Creativo</b>, donde asumí el
+            papel principal en la{" "}
+            <b>implementación de la interfaz de usuario utilizando Next.js</b>.
+            Mi enfoque se centró en consumir eficientemente los endpoints
+            proporcionados por el backend para presentar contenido dinámico en
+            el diario.
+            <br />
+            <br />
+            Opté por utilizar Next.js para aprovechar su potencia en la
+            construcción de aplicaciones web rápidas y eficientes, garantizando
+            una experiencia de usuario fluida y receptiva. Y utilice la
+            versatilidad de Tailwind CSS para diseñar los estilos del diario,
+            logrando una apariencia moderna y atractiva. Esta elección permitió
+            una personalización eficiente y una gestión sencilla de los estilos.
+            <br />
+            <br />
+            Este proyecto no solo resalta mi{" "}
+            <b>capacidad técnica en el desarrollo con Next.js y Tailwind CSS</b>
+            , sino también{" "}
+            <b>
+              mi habilidad para trabajar en equipo, adaptarme a los requisitos
+              específicos del cliente y entregar resultados de alta calidad.
+            </b>{" "}
+            La experiencia adquirida en este proyecto ha fortalecido mi
+            confianza en abordar desafíos complejos y ha mejorado mi capacidad
+            para ofrecer soluciones efectivas en entornos de desarrollo
+            colaborativo.
+          </p>
+        )}
+        {project?.title === "Ángeles Callejeros" && (
+          <p>
+            Me complace compartir mi contribución como desarrollador frontend en
+            un proyecto clave después de completar dos bootcamps. Utilicé{" "}
+            <b>Next.js</b> para mejorar la presencia digital de una{" "}
+            <b>ONG de niños</b>, centrándome en un{" "}
+            <b>diseño intuitivo y accesible</b>.
+            <br />
+            <br />
+            <b>Integre exitosamente de la API de Mercado Pago </b>para recibir
+            donaciones de manera segura y diversificada, ademas de tener un
+            <b>diseño responsivo y experiencia de usuario optimizada </b>para
+            una navegación intuitiva y me concentré en una contribución
+            significativa al aumento de la visibilidad en línea y la recaudación
+            de fondos para la ONG.
+            <br />
+            <br />
+            Este proyecto marcó una etapa clave en mi carrera, destacando mi
+            capacidad para aplicar habilidades técnicas en proyectos con impacto
+            social positivo
           </p>
         )}
         <div className="flex items-center justify-center gap-8">
