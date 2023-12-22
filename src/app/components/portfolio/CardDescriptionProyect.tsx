@@ -9,7 +9,6 @@ import { Suspense } from "react";
 interface Project {
   id: number;
   title: string;
-  description: string;
   imgUrl?: string;
   slug: string;
   imgs: { id: number; imgUrl: string }[];
