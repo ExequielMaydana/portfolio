@@ -34,7 +34,7 @@ export default function About() {
 
   return (
     <section
-      className="w-full flex flex-col gap-4 p-4 lg:p-12 mb-12 overflow-hidden"
+      className="w-full flex flex-col gap-4 p-4 lg:p-12 mb-12 overflow-x-hidden"
       id="about"
     >
       <HeaderSections title="Sobre mí" />
