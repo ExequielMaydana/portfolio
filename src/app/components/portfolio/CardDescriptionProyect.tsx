@@ -128,7 +128,7 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             la personalización en el mundo del fitness personalizado.
           </p>
         )}
-        {project?.title === "Tienda Online" && (
+        {/* {project?.title === "Tienda Online" && (
           <p className="text-center md:w-[80%] md:m-auto">
             Mi primer proyecto Full-Stack representa la culminación de mi viaje
             en la programación, abordando tanto el desarrollo del backend como
@@ -163,7 +163,7 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             funciones avanzadas como la gestión de imágenes y la administración
             de roles.
           </p>
-        )}
+        )} */}
         {project?.title === "Diario El Heraldo | de Concordia" && (
           <p>
             Tengo el placer de presentar el proyecto de creación desde cero de
