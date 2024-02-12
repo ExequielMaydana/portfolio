@@ -128,42 +128,6 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             la personalización en el mundo del fitness personalizado.
           </p>
         )}
-        {/* {project?.title === "Tienda Online" && (
-          <p className="text-center md:w-[80%] md:m-auto">
-            Mi primer proyecto Full-Stack representa la culminación de mi viaje
-            en la programación, abordando tanto el desarrollo del backend como
-            del frontend. Utilizando <b>NodeJS con ExpressJS</b> para el backend
-            y <b>MongoDB como base de datos</b>, este proyecto encarna la
-            filosofía de que <b>querer es poder</b>.
-            <br />
-            <br />
-            En el frontend, opté por <b>Next.js</b> para una experiencia de
-            usuario fluida, complementado con <b>TailwindCSS</b> para un diseño
-            moderno y ágil. La tienda online presenta una variedad de productos,
-            desde indumentaria hasta accesorios y zapatillas, ofreciendo a los
-            usuarios una experiencia de compra completa.
-            <br />
-            <br />
-            La funcionalidad de usuario se amplía con la posibilidad de crear
-            cuentas y cargar fotos de perfil. Para gestionar las imágenes,
-            integré <b>Cloudinary en el backend</b>, permitiendo la carga y
-            consumo eficiente de imágenes desde el frontend.
-            <br />
-            <br />
-            La administración de productos se gestiona a través de un{" "}
-            <b>panel construido con Material UI</b>, accesible solo para
-            usuarios con el rol de administrador. Esta distinción de roles
-            asegura un entorno seguro y permite que solo los administradores
-            suban nuevos productos.
-            <br />
-            <br />
-            Este proyecto no solo demuestra mis habilidades técnicas en
-            Full-Stack development, sino que también destaca la atención al
-            detalle en la experiencia del usuario y la implementación de
-            funciones avanzadas como la gestión de imágenes y la administración
-            de roles.
-          </p>
-        )} */}
         {project?.title === "Diario El Heraldo | de Concordia" && (
           <p>
             Tengo el placer de presentar el proyecto de creación desde cero de
