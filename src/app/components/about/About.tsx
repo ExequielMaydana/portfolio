@@ -51,9 +51,9 @@ export default function About() {
               <Image
                 width={620}
                 height={620}
-                src="/img/myAvatarTwo.webp"
+                src="/img/MyAvatarOne.webp"
                 alt="my avatar"
-                className="w-full h-full object-cover pt-6 lg:pt-8"
+                className="w-full h-full object-contain pt-6 lg:pt-8"
               />
             </figure>
 
