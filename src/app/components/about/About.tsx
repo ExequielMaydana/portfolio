@@ -130,8 +130,8 @@ export default function About() {
                 {" "}
                 Me complace presentarle mi perfil como Desarrollador Web Full
                 Stack. Con un año de experiencia en el campo, he desarrollado
-                una sólida ientos y habilidades técnicas que me pe base de
-                conocimrmiten diseñar y construir aplicaciones web completas y
+                una sólida base de conocimientos y habilidades técnicas que me
+                permiten diseñar y construir aplicaciones web completas y
                 eficientes.
                 <br />
                 <br />
