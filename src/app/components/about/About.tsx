@@ -129,10 +129,10 @@ export default function About() {
               <p className="font-medium sm:w-[90%] lg:w-full md:text-lg">
                 {" "}
                 Me complace presentarle mi perfil como Desarrollador Web Full
-                Stack. Con un año de experiencia en el campo, he desarrollado
-                una sólida base de conocimientos y habilidades técnicas que me
-                permiten diseñar y construir aplicaciones web completas y
-                eficientes.
+                Stack. Poniendo el foco un poco mas en el frontend, he
+                desarrollado una sólida base de conocimientos y habilidades
+                técnicas que me permiten diseñar y construir aplicaciones web
+                completas y eficientes.
                 <br />
                 <br />
                 Durante mi trayectoria profesional, he trabajado en diversos
