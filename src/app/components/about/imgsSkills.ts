@@ -11,7 +11,8 @@ export const imagesSkills = [
   { id: 9, title: "Redux", imageUrl: "/imgs-skills/redux.svg" },
   { id: 10, title: "NodeJS", imageUrl: "/imgs-skills/nodejs.svg" },
   { id: 11, title: "Python", imageUrl: "/imgs-skills/python.svg" },
-  { id: 12, title: "MongoDB", imageUrl: "/imgs-skills/mongodb.svg" },
-  { id: 13, title: "PostgreSQL", imageUrl: "/imgs-skills/postgre.svg" },
-  { id: 14, title: "git", imageUrl: "/imgs-skills/git.svg" },
+  { id: 12, title: "Java", imageUrl: "/imgs-skills/java.svg" },
+  { id: 13, title: "MongoDB", imageUrl: "/imgs-skills/mongodb.svg" },
+  { id: 14, title: "PostgreSQL", imageUrl: "/imgs-skills/postgre.svg" },
+  { id: 15, title: "git", imageUrl: "/imgs-skills/git.svg" },
 ];
