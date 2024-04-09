@@ -51,7 +51,7 @@ body {
 }
 
 .swiper-cube {
-  width: min(90%, 500px) !important;
+  width: min(100%, 500px) !important;
   height: 400px !important;
 }
 

@@ -180,7 +180,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  visibility: hidden;
+  display: hidden;
 }
 
 .up {
@@ -344,6 +344,6 @@
 
 @media screen and (min-width: 976px) {
   .main {
-    visibility: visible;
+    display: initial;
   }
 }

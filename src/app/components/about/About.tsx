@@ -47,21 +47,17 @@ export default function About() {
           transition={{ duration: 0.8 }}
         >
           <div className="flex flex-col items-center justify-center gap-8 lg:justify-start">
-            <figure className="w-[250px] h-[250px] border border-black rounded-full shadow-lg overflow-hidden lg:w-[300px] lg:h-[300px]">
+            <figure className="w-[300px] h-[300px] border border-gray4 rounded-tl-[3em] rounded-tr-[5em] rounded-bl-[9em] rounded-br-[4em] shadow-xl overflow-hidden lg:w-[300px] lg:h-[300px]">
               <Image
-                width={620}
-                height={620}
-                src="/img/MyAvatarOne.webp"
+                width={1000}
+                height={1000}
+                src="/img/img-about.png"
                 alt="my avatar"
-                className="w-full h-full object-contain pt-6 lg:pt-8"
+                className="w-full h-full object-contain p-5"
               />
             </figure>
 
-            <div className="hidden lg:flex flex-col items-center justify-center gap-2 text-black">
-              <p>
-                Puedes saber más
-                <br /> de mi en…
-              </p>
+      
               <div className={styles.main}>
                 <div className={styles.up}>
                   <button className={styles.card1}>
@@ -112,7 +108,6 @@ export default function About() {
                   </button>
                 </div>
               </div>
-            </div>
           </div>
         </motion.div>
 

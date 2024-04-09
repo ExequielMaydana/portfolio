@@ -4,6 +4,7 @@ export const dataPortfolio = [
     title: "Personal Trainer",
     imgUrl: "/img-projects/personaltrainer.jpg",
     slug: "personal-trainer",
+    type: " Proyecto a medida",
     imgs: [
       { id: 0, imgUrl: "/img-projects/personal/p-img-1.png" },
       { id: 1, imgUrl: "/img-projects/personal/p-img-2.png" },
@@ -20,8 +21,8 @@ export const dataPortfolio = [
     id: 1,
     title: "Diario El Heraldo | de Concordia",
     imgUrl: "/img-projects/logo-heraldo.jpg",
-
     slug: "el-heraldo",
+    type: " Proyecto a medida",
     imgs: [
       { id: 0, imgUrl: "/img-projects/diary/d-img-1.png" },
       { id: 1, imgUrl: "/img-projects/diary/d-img-2.png" },
@@ -35,8 +36,8 @@ export const dataPortfolio = [
     id: 2,
     title: "Ángeles Callejeros",
     imgUrl: "/img-projects/logo-angeles.svg",
-
     slug: "angeles-callejeros",
+    type: " Proyecto a medida",
     imgs: [
       { id: 0, imgUrl: "/img-projects/ONG/o-img-1.png" },
       { id: 1, imgUrl: "/img-projects/ONG/o-img-2.png" },

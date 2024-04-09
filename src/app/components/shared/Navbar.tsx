@@ -16,7 +16,7 @@ export default function Navbar() {
             <Image
               width={573}
               height={573}
-              src="/img/MyAvatarOne.webp"
+              src="/img/me.png"
               alt="profile potho"
               className="w-full h-full rounded-full shadow-md"
             />
@@ -111,7 +111,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#about"
+              href="/#about"
               className="hover:border-b-2 hover:border-indigo6 transition duration-300"
             >
               Sobre mí{" "}
@@ -119,7 +119,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#portfolio"
+              href="/#portfolio"
               className="hover:border-b-2 hover:border-indigo6 transition duration-300"
             >
               Proyectos
@@ -127,7 +127,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#contact"
+              href="/#contact"
               className="hover:border-b-2 hover:border-indigo6 transition duration-300"
             >
               Contacto

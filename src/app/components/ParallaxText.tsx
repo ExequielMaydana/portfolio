@@ -39,7 +39,7 @@ export default function ParallaxText({
 
   const directionFactor = useRef<number>(1);
   useAnimationFrame((t, delta) => {
-    let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
+    let moveBy = directionFactor.current * baseVelocity * (delta / 2500);
 
     /**
      * This is what changes the direction of the scroll once we

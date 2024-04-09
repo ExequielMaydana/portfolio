@@ -30,7 +30,7 @@ export default function Contact() {
           <Image
             width={1000}
             height={1000}
-            src="/img/contact.svg"
+            src="/img/img-contact.png"
             alt="ilustration contact"
             className="w-full h-full object-contain"
           />

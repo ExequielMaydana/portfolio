@@ -1,3 +1,5 @@
 export default function Proyectos() {
-  return <div>Proyectos</div>;
+  return <section className="w-full h-screen">
+
+  </section>;
 }

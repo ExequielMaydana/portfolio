@@ -13,7 +13,7 @@ export default function Portfolio() {
       className="w-full flex flex-col gap-12 p-4 lg:p-12 mb-12"
       id="portfolio"
     >
-      <HeaderSections title="Algunos trabajos" />
+      <HeaderSections title="Algunos trabajos" subtitle="Ver más"/>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
