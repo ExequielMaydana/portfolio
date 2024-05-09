@@ -15,7 +15,7 @@ export const dataPortfolio = [
       { id: 6, imgUrl: "/img-projects/personal/p-img-7.png" },
       { id: 7, imgUrl: "/img-projects/personal/p-img-8.png" },
     ],
-    urlWebSite: "https://pablosalinacoach.online/",
+    urlWebSite: "https://pablosalinacoach.netlify.app/",
   },
   {
     id: 1,
