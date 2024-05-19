@@ -16,9 +16,9 @@ export default function Navbar() {
             <Image
               width={573}
               height={573}
-              src="/img/me.png"
+              src="/img/my.jpg"
               alt="profile potho"
-              className="w-full h-full rounded-full shadow-md"
+              className="w-full h-full object-cover rounded-full shadow-md"
             />
           </figure>
           <p className="font-semibold">Exe Dev</p>

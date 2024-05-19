@@ -2,12 +2,6 @@
 import Image from "next/image";
 import { imagesSkills } from "./imgsSkills";
 import HeaderSections from "@/app/libs/HeaderSections";
-import styles from "../../styles/about.module.css";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
@@ -46,69 +40,15 @@ export default function About() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="flex flex-col items-center justify-center gap-8 lg:justify-start">
-            <figure className="w-[300px] h-[300px] border border-gray4 rounded-tl-[3em] rounded-tr-[5em] rounded-bl-[9em] rounded-br-[4em] shadow-xl overflow-hidden lg:w-[300px] lg:h-[300px]">
-              <Image
-                width={1000}
-                height={1000}
-                src="/img/img-about.png"
-                alt="my avatar"
-                className="w-full h-full object-contain p-5"
-              />
-            </figure>
-
-      
-              <div className={styles.main}>
-                <div className={styles.up}>
-                  <button className={styles.card1}>
-                    <span className={styles.instagram}>
-                      <Link
-                        href="https://www.instagram.com/exe_m666/"
-                        target="_blank"
-                      >
-                        {" "}
-                        <FaInstagram />
-                      </Link>
-                    </span>
-                  </button>
-                  <button className={styles.card2}>
-                    <span className={styles.twitter}>
-                      <Link
-                        href="https://twitter.com/ExeBikerr"
-                        target="_blank"
-                      >
-                        {" "}
-                        <FaTwitter />
-                      </Link>
-                    </span>
-                  </button>
-                </div>
-                <div className={styles.down}>
-                  <button className={styles.card3}>
-                    <span className={styles.github}>
-                      <Link
-                        href="https://github.com/ExequielMaydana"
-                        target="_blank"
-                      >
-                        {" "}
-                        <FaGithub />
-                      </Link>
-                    </span>
-                  </button>
-                  <button className={styles.card4}>
-                    <span className={styles.linkedin}>
-                      <Link
-                        href="https://www.linkedin.com/in/hernan-exequiel-maydana-913a50218/"
-                        target="_blank"
-                      >
-                        {" "}
-                        <FaLinkedin />
-                      </Link>
-                    </span>
-                  </button>
-                </div>
-              </div>
-          </div>
+          <figure className="w-full max-w-[500px] imgAbout">
+            <Image
+              width={1000}
+              height={1000}
+              src="/img/my.jpg"
+              alt="my avatar"
+              className="w-full h-full object-cover p-5"
+            />
+          </figure>
         </motion.div>
 
         <div className="w-full lg:w-[60%]">
@@ -164,12 +104,6 @@ export default function About() {
             </div>
           </motion.div>
         </div>
-      </article>
-      <article>
-        <div className={styles.squares1}></div>
-        <div className={styles.squares2}></div>
-        <div className={styles.squares3}></div>
-        <div className={styles.squares4}></div>
       </article>
     </section>
   );

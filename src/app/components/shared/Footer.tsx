@@ -4,12 +4,13 @@ import { IoArrowUp } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import styles from "../../styles/footer.module.css";
 export default function Footer() {
+
+
   return (
-    <footer className={`${styles.footer}`}>
+    <footer className="footer">
       {" "}
-      <div className={styles.background}>
+      <div className="background">
         <svg
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +84,7 @@ export default function Footer() {
       </div>
       <section className="w-full flex flex-col items-center justify-center gap-4 z-50 md:mt-24">
         <ul className="flex items-center justify-center gap-8 md:gap-12">
-          <li className={styles.instagram}>
+          <li className="instagram">
             <Link
               href="https://www.instagram.com/exe_m666/"
               target="_blank"
@@ -92,7 +93,7 @@ export default function Footer() {
               <FaInstagram />
             </Link>
           </li>
-          <li className={styles.twitter}>
+          <li className="twitter">
             <Link
               href="https://twitter.com/ExeBikerr"
               target="_blank"
@@ -101,7 +102,7 @@ export default function Footer() {
               <FaTwitter />
             </Link>
           </li>
-          <li className={styles.linkedin}>
+          <li className="linkedin">
             <Link
               href="https://www.linkedin.com/in/hernan-exequiel-maydana-913a50218/"
               target="_blank"

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import Form from "./Form";
 import Image from "next/image";
+import styles from "../../styles/contact.module.css"
 
 export default function Contact() {
   return (
@@ -38,6 +39,12 @@ export default function Contact() {
 
         <Form />
       </article>
+      {/* <article>
+        <div className={styles.squares1}></div>
+        <div className={styles.squares2}></div>
+        <div className={styles.squares3}></div>
+        <div className={styles.squares4}></div>
+      </article> */}
     </section>
   );
 }

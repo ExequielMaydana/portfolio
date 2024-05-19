@@ -1,7 +1,6 @@
 "use client";
 import { Formik } from "formik";
 import axios from "axios";
-import styles from "../../styles/contact.module.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -61,7 +60,7 @@ export default function Form() {
           handleBlur,
           handleSubmit,
         }) => (
-          <form className={styles.form} onSubmit={handleSubmit}>
+          <form className="min-w-full max-w-[800px] p-5 flex flex-col gap-6" onSubmit={handleSubmit}>
             <p className="text-center text-black font-medium">
               Por favor, complete la siguiente información y me comunicaré con
               usted lo antes posible. Gracias.
@@ -125,7 +124,7 @@ export default function Form() {
                 )}
               </li>
             </ul>
-            <button className={styles.form__btn} type="submit">
+            <button className="form__btn" type="submit">
               Enviar <i className="bx bx-send"></i>
             </button>
             <ToastContainer

@@ -1,19 +1,37 @@
+"use client";
+
 import HeaderSections from "@/app/libs/HeaderSections";
 import { dataValues } from "./dataValues";
 import Card from "./Card";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
+
 export default function Values() {
   return (
     <section className="w-full flex flex-col p-4 lg:p-12 mb-12">
       <HeaderSections title="¿POR QUÉ DEBERÍA CONTRATARME?" />
-      <p className="font-medium text-black mt-2 mb-4 text-center md:w-[80%] md:text-xl md:text-center md:mb-6 lg:text-center">
+      <p className="font-medium text-black mt-2 mb-4 md:w-[80%] md:text-xl md:mb-6 lg:w-[70%]">
         Cuando construyo o clono proyectos web, me adhiero firmemente a estos
         principios que hacen que mis sitios web sean únicos y escalables.
       </p>
-      <article className="w-full flex flex-wrap items-center justify-center gap-16 lg:gap-18">
-        {dataValues.map((data) => (
-          <Card data={data} key={data.id} />
+      <Swiper
+        slidesPerView={'auto'}
+        centeredSlides={true}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="swiperValues"
+      >
+        {dataValues.map(data => (
+          <SwiperSlide key={data.id} className="w-full flex items-end justify-end">     <Card data={data} /></SwiperSlide>
+
         ))}
-      </article>
+
+
+
+      </Swiper>
     </section>
   );
 }

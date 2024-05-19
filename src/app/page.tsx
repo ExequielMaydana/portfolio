@@ -6,7 +6,7 @@ import Welcom from "./components/home/Welcom";
 import Portfolio from "./components/portfolio/Portfolio";
 import Values from "./components/values/Values";
 import { motion, useScroll, useSpring } from "framer-motion";
-
+import styles from "./styles/main.module.css"
 export default function Home() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -33,6 +33,12 @@ export default function Home() {
         <Portfolio />
         <Values />
         <Contact />
+        <article className="w-full">
+          <div className={styles.squares1}></div>
+          <div className={styles.squares2}></div>
+          <div className={styles.squares3}></div>
+          <div className={styles.squares4}></div>
+        </article>
       </main>
     </>
   );

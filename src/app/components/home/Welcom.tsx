@@ -1,11 +1,10 @@
 import Link from "next/link";
 import BallAnimation from "./BallAnimation";
-import styles from "../../styles/welcome.module.css";
 
 export default function Welcom() {
   return (
     <section className="relative w-full flex flex-col items-start justify-center p-4 gap-4 mb-8 lg:p-12">
-      
+
       <BallAnimation />
       <p className="font-medium text-gray5 text-sm uppercase sm:text-base  animate-fade
  animate-duration-[900ms] animate-delay-[500ms]">
@@ -34,7 +33,7 @@ export default function Welcom() {
         className="pt-4 animate-fade
         animate-duration-[900ms] animate-delay-[1100ms]"
       >
-        <button className={`${styles.btn_download} ${styles.btn_7}`}>
+        <button className="btn_download btn_7">
           <span>Descargar cv </span>
         </button>
       </Link>

@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCube, Pagination } from "swiper/modules";
 import { IoNavigate } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
-import styles from "../../styles/portfolio.module.css";
 import { Suspense } from "react";
 interface Project {
   id: number;
@@ -183,8 +182,8 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
           </p>
         )}
         <div className="flex items-center justify-center gap-8">
-          <div className={`${styles.button_borders}`}>
-            <button className={styles.primary_button}>
+          <div className="button_borders">
+            <button className="primary_button">
               <Link
                 href={project ? project.urlWebSite : "#"}
                 target="_blank"
@@ -198,8 +197,8 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             </button>
           </div>
 
-          <div className={`${styles.button_borders}`}>
-            <button className={styles.primary_button}>
+          <div className="button_borders">
+            <button className="primary_button">
               <Link
                 href="https://github.com/ExequielMaydana"
                 target="_blank"

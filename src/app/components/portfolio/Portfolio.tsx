@@ -5,15 +5,15 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 import { dataPortfolio } from "./dataPortfolio";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../../styles/portfolio.module.css";
 import HeaderSections from "@/app/libs/HeaderSections";
+
 export default function Portfolio() {
   return (
     <section
       className="w-full flex flex-col gap-12 p-4 lg:p-12 mb-12"
       id="portfolio"
     >
-      <HeaderSections title="Algunos trabajos" subtitle="Ver más"/>
+      <HeaderSections title="Algunos trabajos" subtitle="Ver más" />
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -41,7 +41,7 @@ export default function Portfolio() {
                   alt="imagen proyecto"
                   className="w-full h-full object-cover rounded-md imgShadow"
                 />
-                <button className={styles.btn_card}>
+                <button className="btn_card">
                   <b>Ver más</b>
                 </button>
               </figure>
