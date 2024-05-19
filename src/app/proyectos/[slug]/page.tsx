@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import Image from "next/image";
-import styles from "../../styles/portfolio.module.css";
 
 export default function ProjectById({ params }: { params: { slug: string } }) {
   const project = dataPortfolio.find((project) => project.slug === params.slug);
@@ -71,7 +70,7 @@ export default function ProjectById({ params }: { params: { slug: string } }) {
                       alt="imagen proyecto"
                       className="w-full h-full object-cover rounded-md imgShadow"
                     />}
-                    <button className={styles.btn_card}>
+                    <button className="btn_card">
                       <b>Ver</b>
                     </button>
                   </figure>
