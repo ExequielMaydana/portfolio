@@ -32,7 +32,7 @@ export default function RootLayout({
         <meta property="og:url" content="https://exequielmaydana.vercel.app/" />
         <meta property="og:title" content="Exequiel Maydana | Desarrollador Web" />
         <meta property="og:description" content="Experto en desarrollo web con especialización en Next.js. Ofrezco soluciones innovadoras y eficientes para proyectos web de alta calidad. Explora mi portafolio profesional para ver ejemplos de mi trabajo." />
-        <meta property="og:image" content="https://some-image.png" />
+        <meta property="og:image" content="https://exequielmaydana.vercel.app/img/me.png" />
 
         <link rel="canonical" href="https://exequielmaydana.vercel.app/" />
         <meta name="robots" content="index, follow" />
