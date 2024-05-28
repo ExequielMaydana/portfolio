@@ -58,7 +58,6 @@ export default function Navbar() {
       </button>
 
       <nav className={`${openMenu ? styles.open_menu : styles.menu}`}>
-        <div></div>
         <div style={{ transitionDelay: "0.1s" }}></div>
         <div style={{ transitionDelay: "0.2s" }}></div>
         <div style={{ transitionDelay: "0.3s" }}></div>
