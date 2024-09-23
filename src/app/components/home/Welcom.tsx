@@ -13,7 +13,7 @@ export default function Welcom() {
       </p>
       <h1
         className="text-4xl font-black text-black textShadow sm:text-5xl lg:text-7xl animate-fade
- animate-duration-[900ms] animate-delay-[700ms]"
+  animate-duration-[900ms] animate-delay-[700ms]"
       >
         Desarrollador Web <br /> Full-Stack
       </h1>
