@@ -82,7 +82,7 @@ export default function Footer() {
           </g>
         </svg>
       </div>
-      <section className="w-full flex flex-col items-center justify-center gap-4 z-50 md:mt-24">
+      <section className="w-full flex flex-col items-center justify-center gap-4 pt-20 z-50 sm:pt-36">
         <ul className="flex items-center justify-center gap-8 md:gap-12">
           <li className="instagram">
             <Link
@@ -112,7 +112,7 @@ export default function Footer() {
             </Link>
           </li>
         </ul>
-        <ul className="flex items-center justify-center gap-6 md:gap-12">
+        <ul className="flex flex-col items-center justify-center gap-2 sm:flex-row sm:gap-8 md:gap-14">
           <li className="text-lg text-gray1 md:text-xl">
             <Link href="/">Inicio</Link>
           </li>
