@@ -12,7 +12,7 @@ export default function Navbar() {
     >
       <Link href="/">
         <article className="flex items-center justify-center gap-2">
-          <figure className="w-[60px] h-[60px] rounded-full bg-slate-100">
+          <figure className="w-[60px] h-[60px] rounded-full bg-slate-100 lg:w-[80px] lg:h-[80px]">
             <Image
               width={573}
               height={573}
@@ -21,7 +21,7 @@ export default function Navbar() {
               className="w-full h-full object-cover rounded-full shadow-md"
             />
           </figure>
-          <p className="font-semibold">Exe Dev</p>
+          <p className="font-semibold lg:text-xl lg:font-semibold">ExeDev</p>
           <figure className="w-[20px] h-[20px]">
             <Image
               width={422}
@@ -98,7 +98,7 @@ export default function Navbar() {
         </ul>
       </nav>
       <nav className="hidden w-auto lg:flex items-center justify-end">
-        <ul className="flex items-center justify-center gap-6 text-lg font-medium lg:text-xl ">
+        <ul className="flex items-center justify-center gap-12 text-xl font-semibold lg:text-xl ">
           <li>
             <Link
               href="/"
