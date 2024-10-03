@@ -40,13 +40,13 @@ export default function About() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <figure className="w-full max-w-[500px] imgAbout">
+          <figure className="w-full h-full xl:min-w-[600px] xl:min-h-[400px]">
             <Image
               width={1000}
               height={1000}
-              src="/img/my.jpg"
+              src="/img/about.svg"
               alt="my avatar"
-              className="w-full h-full object-cover p-5"
+              className="w-full h-full object-cover"
             />
           </figure>
         </motion.div>

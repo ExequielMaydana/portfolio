@@ -159,28 +159,7 @@ export default function CardDescriptionProyect(Props: { project?: Project }) {
             colaborativo.
           </p>
         )}
-        {project?.title === "Ángeles Callejeros" && (
-          <p>
-            Me complace compartir mi contribución como desarrollador frontend en
-            un proyecto clave después de completar dos bootcamps. Utilicé{" "}
-            <b>Next.js</b> para mejorar la presencia digital de una{" "}
-            <b>ONG de niños</b>, centrándome en un{" "}
-            <b>diseño intuitivo y accesible</b>.
-            <br />
-            <br />
-            <b>Integre exitosamente de la API de Mercado Pago </b>para recibir
-            donaciones de manera segura y diversificada, ademas de tener un
-            <b>diseño responsivo y experiencia de usuario optimizada </b>para
-            una navegación intuitiva y me concentré en una contribución
-            significativa al aumento de la visibilidad en línea y la recaudación
-            de fondos para la ONG.
-            <br />
-            <br />
-            Este proyecto marcó una etapa clave en mi carrera, destacando mi
-            capacidad para aplicar habilidades técnicas en proyectos con impacto
-            social positivo
-          </p>
-        )}
+        
         <div className="flex items-center justify-center gap-8">
           <div className="button_borders">
             <button className="primary_button">
