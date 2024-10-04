@@ -8,11 +8,12 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 import Image from "next/image";
 
 export default function ProjectById({ params }: { params: { slug: string } }) {
-  const project = dataPortfolio.find((project) => project.slug === params.slug);
+  const decodedSlug = decodeURIComponent(params.slug);
+  const project = dataPortfolio.find((project) => project.slug === decodedSlug);
   const projectSimil = dataPortfolio.filter(e => e.type === project?.type && e.title !== project.title)
-
+    
   return (
-    <section className="w-full flex flex-col min-h-screen p-4 gap-8 lg:p-12">
+    <section className="w-full flex flex-col min-h-screen p-4 gap-8 md:px-8 lg:p-12">
       <header className="w-full flex flex-col xl:pb-8">
         <div className="flex items-center justify-start gap-2 text-sm md:text-base">
           <Link href="/" className="text-[#6366f1]">
@@ -29,7 +30,7 @@ export default function ProjectById({ params }: { params: { slug: string } }) {
 
       <div className="w-full flex flex-col gap-12 md:gap-20 mb-[8em]">
         <CardDescriptionProyect project={project} />
-        <div className="w-full flex flex-col gap-12 p-4 lg:p-12 mb-12"
+        <div className="w-full flex flex-col gap-12 mb-12"
         >
           <h3 className="text-2xl font-semibold uppercase ">Proyectos del mismo tipo</h3>
           <Swiper

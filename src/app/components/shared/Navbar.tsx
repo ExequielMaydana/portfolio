@@ -16,7 +16,7 @@ export default function Navbar() {
             <Image
               width={573}
               height={573}
-              src="/img/my.jpg"
+              src="/img/my.webp"
               alt="profile potho"
               className="w-full h-full object-cover rounded-full shadow-md"
             />

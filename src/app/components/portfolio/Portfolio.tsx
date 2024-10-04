@@ -35,11 +35,11 @@ export default function Portfolio() {
             <Link href={`/proyectos/${data.slug}`}>
               <figure className="w-full h-full relative">
                 <Image
-                  width={600}
-                  height={600}
+                  width={1000}
+                  height={1000}
                   src={data.imgUrl}
                   alt="imagen proyecto"
-                  className="w-full h-full object-cover rounded-md imgShadow"
+                  className="min-w-[250px] max-w-[250px] h-full object-cover rounded-md imgShadow"
                 />
                 <button className="btn_card">
                   <b>Ver más</b>

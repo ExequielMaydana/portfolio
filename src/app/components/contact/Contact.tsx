@@ -31,7 +31,7 @@ export default function Contact() {
           <Image
             width={1000}
             height={1000}
-            src="/img/img-contact.png"
+            src="/img/contact.webp"
             alt="ilustration contact"
             className="w-full h-full object-contain"
           />
